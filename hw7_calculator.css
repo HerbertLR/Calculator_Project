@@ -24,7 +24,7 @@ body {
     flex-direction: column;
     width: 296px;
     height: 608px;
-    background-image: url(https://raw.githubusercontent.com/HerbertLR/Calculator_Project/blob/main/hw7_calculator_background.png);
+    background-image: url(https://raw.githubusercontent.com/HerbertLR/Calculator_Project/main/hw7_calculator_background.png);
     background-size: 296px;
     background-color: black;
 }
