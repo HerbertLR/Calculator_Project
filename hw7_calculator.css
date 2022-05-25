@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container_div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 296px;
+    height: 608px;
+    background-image: url(../images/hw7_calculator_background.png);
+    background-size: 296px;
+    background-color: black;
+}
+
+.output{
+    margin-top: 50px;
+    width: 222px;
+    height: 85px;
+    grid-column: 1 / -1;
+    color: rgb(212, 212, 212);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-family: 'Inter', sans-serif;
+    font-size: 38px;
+    line-height: 34px;
+}
+
+.btns-wrap{
+    margin-top: 4px;
+    width: 222px;
+    height: 280px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 47px);
+    grid-template-rows: repeat(5, 47px);
+    grid-gap: 11px;
+}
+
+
+.btns-wrap > button {
+    cursor: pointer;
+    background-color: Transparent;
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+    color: transparent;
+}
+
+.btns-wrap > .span-two{
+    grid-column: span 2;
+    width: 105px;
+}
